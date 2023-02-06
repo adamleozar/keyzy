@@ -11,10 +11,17 @@ module.exports = {
       'magenta': '#bf1363',
       'azure': '#0e79b2',
       'parchment': '#fbfff1',
+      'white': '#ffffff',
     },
     extend: {
       fontFamily: {
         sans: ['Outfit', ...defaultTheme.fontFamily.sans],
+      },
+    },
+    extend: {
+      screens: {
+        'xs': '375px',
+        // => @media (min-width: 992px) { ... }
       },
     },
   },
