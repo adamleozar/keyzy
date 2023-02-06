@@ -17,6 +17,8 @@ Then to run the development server:
 npm run dev
 ```
 
+Then open `http://localhost:3000` in your browser.
+
 ## Tests
 
 To run the test suite:
@@ -28,8 +30,9 @@ npm test
 ## ToDo list
 
 1) Add debounce to the property details api request.
-2) Improve the ui/us of the range slider components.
+2) Improve the ui/ux of the range slider components.
 3) Add storybook to visually test components.
 4) Add more spec coverage.
 5) Add integration tests with something like Cypress.io
+6) Find an alternative way to get the property details other than scrapping.
 
